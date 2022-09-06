@@ -1,0 +1,27 @@
+section {
+    font-family: 'Poppins';
+}
+
+.checkoutPage {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 56em;
+}
+
+.subtotal {
+    position: absolute;
+    margin-top: 12em;
+}
+
+.shoppingCart {
+    background-color: #DBD3C9;
+    position: absolute;
+    top: 6em;
+    bottom: 40px;
+    min-height: 50%;
+    overflow-y: scroll;
+    left: 4em;
+    right: 31em;
+    min-width: 60%;
+}

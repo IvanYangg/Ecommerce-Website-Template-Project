@@ -1,0 +1,30 @@
+.featured {
+    position: absolute;
+    top: 1000px;
+    left: 10%;
+    width: 80%;
+    background-color: #88A0A8;
+    border-radius: 24px;
+}
+
+.featuredTitle {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 28px;
+    color: white;
+}
+
+.featuredWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+}
+
+.browse {
+    color: white;
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 5em;
+}

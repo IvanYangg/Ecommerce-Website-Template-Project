@@ -1,0 +1,45 @@
+.card {
+    background-color: #DBD3C9;
+    color: black;
+    width: 300px;
+    height: 350px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Poppins';
+    border-radius: 12px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.imageUrl > img {
+    width: 220px;
+    height: 210px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.addToCart {
+    background-color:#9EB7AE;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 8px 16px;
+}
+
+.addToCart:hover {
+    cursor: pointer;
+    background-color:rgb(242, 187, 85);
+    padding: 10px 20px;
+    transition: 0.8s;
+}
+
+.addToCart:active {
+    background-color:rgb(240, 214, 157);
+}

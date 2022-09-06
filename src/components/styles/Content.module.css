@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.background, .backgroundTwo {
+    margin-top: -0.65em;
+    z-index: 2;
+}
+
+.background {
+    height: 450px;
+    background-color: #DBD3C9;
+    width: 50%;
+    text-align: center;
+    line-height: 100px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.backgroundTwo > img {
+    height: 450px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+

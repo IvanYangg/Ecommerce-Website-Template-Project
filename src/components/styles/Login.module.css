@@ -1,0 +1,82 @@
+.logo {
+    font-size: 32px;
+    font-weight: bolder;
+    color: rgb(240, 165, 26);
+    text-align: center;
+}
+
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.loginOverlay {
+    border-style: solid;
+    border-radius: 8px;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.loginOverlay > form, p, button {
+    margin: 1em;
+}
+
+.loginOverlay > form > input {
+    padding: 10px 50px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.loginOverlay > form > h4 {
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.loginOverlay > form > button {
+    display: flex;
+    margin-left: 0;
+}
+
+.loginHeaders {
+    margin: 1em;
+}
+
+.signInBtn {
+    background-color: rgb(240, 165, 26);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.signInBtn:hover {
+    background-color: rgb(238, 191, 104);
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.conditions {
+    width: 360px;
+}
+
+.smallText {
+    font-size: 14px;
+    margin-bottom: -1em;
+}
+
+.createBtn {
+    background-color: rgb(240, 165, 26);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.createBtn:hover {
+    background-color: rgb(238, 191, 104);
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}

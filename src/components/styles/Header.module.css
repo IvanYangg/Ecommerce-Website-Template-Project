@@ -1,0 +1,52 @@
+.topbar {
+    background-color: #546A76;
+    margin: -9px;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbarWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 8px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(240, 165, 26);
+}
+
+.topbarLinks {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign, .allItems, .cart, .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color:white;
+}
+
+.cart:hover, .allItems:hover {
+    color:rgb(240, 165, 26);
+    transition: 0.5s;
+}
+
+.signIn {
+    color: rgb(240, 165, 26);
+    font-weight: bold;
+}
+
+
