@@ -12,6 +12,7 @@ section {
 .subtotal {
     position: absolute;
     margin-top: 12em;
+    right: 6em;
 }
 
 .shoppingCart {

@@ -2,7 +2,7 @@ import styles from "../styles/Product.module.css";
 import { useStateValue } from "../../StateProvider";
 
 function Product(props) {
-    const [state, dispatch] = useStateValue();
+    const [{}, dispatch] = useStateValue();
 
     const addToBasketHandler = () => {
         dispatch({

@@ -27,7 +27,7 @@ function AllItems() {
                         <Product id = {eachProduct.id} title = {eachProduct.title} imageUrl = {eachProduct.imageUrl} rating = {eachProduct.rating} price = {eachProduct.price} />
                     </div>
                 );
-            })};
+            })}
             </div>
         </section>
     );
